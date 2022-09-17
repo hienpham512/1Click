@@ -18,7 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={handleSubmit}>click</button>
+      <button
+        className="bg-red-600 text-white p-2 rounded-md"
+        onClick={handleSubmit}
+      >
+        click
+      </button>
     </div>
   );
 }
