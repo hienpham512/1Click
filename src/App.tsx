@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import Signin from "./components/Signin/Signin";
 import AuthenticationLayout from "./layouts/AuthenticationLayout";
 import Signin from "./pages/Signin";
 import Home from "./pages/Home";
