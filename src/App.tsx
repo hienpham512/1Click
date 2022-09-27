@@ -1,31 +1,9 @@
-import "./App.css";
-import { db } from "./firebase/firebase";
-import { collection, addDoc, Timestamp } from "firebase/firestore";
-function App() {
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    try {
-      await addDoc(collection(db, "tasks"), {
-        title: "title",
-        description: "description",
-        completed: false,
-        created: Timestamp.now(),
-      });
-    } catch (err) {
-      alert(err);
-    }
-  };
+import React from "react";
 
-  return (
-    <div className="App">
-      <button
-        className="bg-red-600 text-white p-2 rounded-md"
-        onClick={handleSubmit}
-      >
-        click
-      </button>
-    </div>
-  );
-}
+interface IAppProps {}
+
+const App: React.FC<IAppProps> = ({}) => {
+  return <div>Home</div>;
+};
 
 export default App;
