@@ -5,7 +5,7 @@ interface IAuthenticationLayoutProps {}
 
 const AuthenticationLayout: React.FC<IAuthenticationLayoutProps> = ({}) => {
   const outlet = useOutlet();
-  return <div>{outlet}</div>;
+  return <>{outlet}</>;
 };
 
 export default AuthenticationLayout;
