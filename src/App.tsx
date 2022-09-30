@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import AuthenticationLayout from "./layouts/AuthenticationLayout";
 import Signin from "./pages/Signin";
 import Home from "./pages/Home";
-
 interface IAppProps {}
 
 const App: React.FC<IAppProps> = ({}) => {
