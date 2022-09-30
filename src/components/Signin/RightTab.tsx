@@ -4,7 +4,6 @@ interface IRightTabProps {}
 
 const RightTab: React.FC<IRightTabProps> = ({}) => {
   return (
-<<<<<<< HEAD
     <div className="bg-white flex-grow rounded-tr-2xl rounded-br-2xl px-6">
       <p className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-pink-700 to bg-red-500">
         SIGNIN
@@ -38,10 +37,6 @@ const RightTab: React.FC<IRightTabProps> = ({}) => {
       <button className="bg-blue-400 text-white w-full py-2 rounded-md font-light text-xl">
         Sigin in with Facebook
       </button>
-=======
-    <div className="bg-white flex-grow rounded-tr-2xl rounded-br-2xl">
-      Sign in Form
->>>>>>> 0ce5254 (Bishesh/signin (#2))
     </div>
   );
 };
