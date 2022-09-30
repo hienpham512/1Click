@@ -1,17 +1,12 @@
 import React from "react";
-<<<<<<< HEAD
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import googleIcon from "../../assets/icons/googleLogo.svg";
 import facebookIcon from "../../assets/icons/facebookLogo.svg";
-=======
-
->>>>>>> 0ce5254 (Bishesh/signin (#2))
 interface IRightTabProps {}
 
 const RightTab: React.FC<IRightTabProps> = ({}) => {
   return (
     <div className="bg-white flex-grow rounded-tr-2xl rounded-br-2xl">
-<<<<<<< HEAD
       <p className="px-6 pb-6 pt-2 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-700 to bg-red-500">
         SIGNIN
       </p>
@@ -65,9 +60,6 @@ const RightTab: React.FC<IRightTabProps> = ({}) => {
           </button>
         </div>
       </div>
-=======
-      Sign in Form
->>>>>>> 0ce5254 (Bishesh/signin (#2))
     </div>
   );
 };
